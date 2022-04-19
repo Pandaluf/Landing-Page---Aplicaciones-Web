@@ -304,3 +304,45 @@ a{
     display: flex;
     justify-content: center;
 }
+/*Services*/
+.services{
+    width: 100%;
+    background: #FCFCFC;
+    padding: 45px 0;
+}
+.services h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 300;
+    color: #76C03C;
+    padding: 35px 0;
+    font-family: 'Poppins', sans-serif;
+}
+.services .container{
+    width: 85%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.services .container .customers, .services .container .business{
+    width: 300px;
+    height: 330px;
+    margin: auto;
+    text-align: center;
+    background: linear-gradient(#A5C3C0,#76C03C);
+    border-radius: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.services .container .customers h2, .services .container .business h2{
+    font-size: 20px;
+    padding: 25px 0;
+
+}
+.services .container .customers li, .services .container .business li{
+    font-size: 16px;
+    width: 80%;
+    margin: auto;
+    font-weight: 200;
+    line-height: 25px;
+    list-style: none;
+}
