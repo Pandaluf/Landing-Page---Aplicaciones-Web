@@ -196,3 +196,49 @@ a{
     justify-content: center;
     align-items: center;
 }
+/** About */
+.about{
+    width: 100%;
+    background: #FCFCFC;
+    padding: 45px 0;
+}
+.about h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 300;
+    color: #76C03C;
+    padding: 35px 0;
+    font-family: 'Poppins', sans-serif;
+}
+.about .description{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+}
+.about .container{
+    width: 85%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.about .container .mision, .about .container .vision{
+    width: 300px;
+    height: 330px;
+    margin: auto;
+    text-align: center;
+    background: linear-gradient(#A5C3C0,#76C03C);
+    border-radius: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.about .container .mision h2, .about .container .vision h2{
+    font-size: 20px;
+    padding: 25px 0;
+
+}
+.about .container .mision p, .about .container .vision p{
+    font-size: 16px;
+    width: 80%;
+    margin: auto;
+    font-weight: 200;
+    line-height: 25px;
+}
