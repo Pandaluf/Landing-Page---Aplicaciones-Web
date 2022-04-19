@@ -196,3 +196,381 @@ a{
     justify-content: center;
     align-items: center;
 }
+/** About */
+.about{
+    width: 100%;
+    background: #FCFCFC;
+    padding: 45px 0;
+}
+.about h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 300;
+    color: #76C03C;
+    padding: 35px 0;
+    font-family: 'Poppins', sans-serif;
+}
+.about .description{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+}
+.about .container{
+    width: 85%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.about .container .mision, .about .container .vision{
+    width: 300px;
+    height: 330px;
+    margin: auto;
+    text-align: center;
+    background: linear-gradient(#A5C3C0,#76C03C);
+    border-radius: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.about .container .mision h2, .about .container .vision h2{
+    font-size: 20px;
+    padding: 25px 0;
+
+}
+.about .container .mision p, .about .container .vision p{
+    font-size: 16px;
+    width: 80%;
+    margin: auto;
+    font-weight: 200;
+    line-height: 25px;
+}
+/*Steps**/
+.steps{
+    width: 100%;
+    margin: 30px 0;
+}
+.steps h1{
+    text-align: center;
+    color: #76C03C;
+    font-size: 45px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    padding: 25px 0;
+}
+.steps .container{
+    width: 85%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+}
+.steps .container .step{
+    display: grid;
+    align-items: center;
+    grid-column-start: span 1;
+}
+.steps .container .step p{
+    color: #A76868;
+    padding: 5px 0;
+}
+.steps .container .step h3{
+    color: #FA5252;
+    padding: 5px 0;
+}
+.steps .container .step .inform_step{
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+}
+.steps .container .step h5{
+    font-weight: 300;
+    padding: 5px 0;
+    font-size: 15px;
+}
+.steps .container .step_1 img{
+    width: 90%;
+}
+.steps .container .step_2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.steps .container .step_2 img{
+    width: 200px;
+}
+.steps .container .step_3 img{
+    width: 200px;
+}
+.steps .container .step_3{
+    grid-column-start: span 2;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+/*Services*/
+.services{
+    width: 100%;
+    background: #FCFCFC;
+    padding: 45px 0;
+}
+.services h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 300;
+    color: #76C03C;
+    padding: 35px 0;
+    font-family: 'Poppins', sans-serif;
+}
+.services .container{
+    width: 85%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.services .container .customers, .services .container .business{
+    width: 300px;
+    height: 330px;
+    margin: auto;
+    text-align: center;
+    background: linear-gradient(#A5C3C0,#76C03C);
+    border-radius: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.services .container .customers h2, .services .container .business h2{
+    font-size: 20px;
+    padding: 25px 0;
+
+}
+.services .container .customers li, .services .container .business li{
+    font-size: 16px;
+    width: 80%;
+    margin: auto;
+    font-weight: 200;
+    line-height: 25px;
+    list-style: none;
+}
+
+/******************* Aplication ****************/
+.aplication{
+    width: 100%;
+    height: 45vh;
+    background: url(./img/principal_2.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+.aplication .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.aplication .container h1{
+    color: #76C03C;
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 25px 0;
+}
+.aplication .container p{
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding: 5px 0;
+}
+.aplication .container button{
+    width: 150px;
+    height: 45px;
+    background: #A5C3C0;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    margin-top: 25px;
+    font-size: 18px;
+}
+/******************** footer *****************/
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .container{
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+}
+footer .container img{
+    width: 120px;
+    height: 50px;
+}
+footer .container .social_media{
+    display: flex;
+    justify-content: end;
+}
+footer .container .social_media i{
+    margin: 0 15px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 1px solid #76C03C;
+    padding: 8px 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+footer .container .social_media i:hover{
+    background: #000;
+    color: #76C03C;
+    border: 1px solid #000;
+    transition: 0.5s;
+}
+.aparecer{
+    transition: 0.3s;
+    transform: translate(0);
+}
+/************** Reponsive ***************/
+
+@media screen and (max-width:1000px){
+    .menu{
+        display: block;
+        padding: 0 25px;
+    }
+    .cambio{
+        display: none;
+    }
+    .head .container .titles ul{
+        display: flex;
+        justify-content: end;
+    }
+    .moon{
+        padding: 0 25px;
+    }
+}
+@media screen and (max-width:900px){
+    .steps .container .step{
+        grid-column-start: span 2;
+    }
+    .steps .container .step_1 .inform_step{
+        width: 100%;
+        text-align: center;
+        margin: 15px 0;
+    }
+    .steps .container .step_1 .inform_step h5{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .steps .container .step_2{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .steps .container .step_3{
+        width: 80%;
+    }
+    .inform_step{
+        padding: 0 15px;
+    }
+}
+@media screen and (max-width:750px){
+    .important .container .imports{
+        grid-column-start: span 2;
+        padding-bottom: 40px;
+    }
+    .important .container .img-import{
+        grid-column-start: span 2;
+    }
+    .about .description{
+        width: 450px;
+    }
+    .about .container .mision, .about .container .vision{
+        margin: 25px auto;
+        grid-column-start: span 2;
+    }
+    .services .container .customers, .services .container .business{
+        margin: 25px auto;
+        grid-column-start: span 2;
+    }
+    .img-head .container h1{
+        font-size: 40px;
+    }
+    .img-head .container p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:450px){
+    .about .description{
+        width: 250px;
+    }
+    .steps .container .step_2, .steps .container .step_3{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .steps .container .step_2 img, .steps .container .step_2 .inform_step{
+        grid-column-start: span 2;
+        margin: auto;
+        text-align: center;
+    }
+    .steps .container .step_3 img, .steps .container .step_3 .inform_step{
+        grid-column-start: span 2;
+        text-align: center;
+        margin: auto;
+    }
+    .steps .container{
+        width: 100%;
+    }
+    .steps .container .step_2 img, .steps .container .step_3 img{
+        width: 250px;
+    }
+    .inform_step h3{
+        font-size: 18px;
+        width: 80%;
+        margin: auto;
+    }
+    .steps .container .step_3 .inform_step, .steps .container .step_2 .inform_step{
+        width: 80%;
+        margin: 25px auto;
+    }
+    .aplication .container h1{
+        font-size: 35px;
+    }
+    .aplication .container p{
+        font-size: 15px;
+    }
+    .aplication .container button{
+        width: 120px;
+        font-size: 15px;
+    }
+    .img-head .container h1{
+        font-size: 30px;
+    }
+    .img-head .container p{
+        font-size: 13px;
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .img-head .container button{
+        width: 120px;
+        font-size: 15px;
+    }
+    footer .container img{
+        grid-column-start: span 2;
+        margin: 15px auto;
+    }
+    footer .container .social_media{
+        grid-column-start: span 2;
+        margin: 15px auto;
+    }
+    .important h1, .about h1, .steps h1, .services h1{
+        font-size: 35px;
+    }
+}
