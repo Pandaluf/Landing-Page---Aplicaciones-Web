@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+/*********************** Head titles *****************/
+.head{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background: #fff;
+}
+.head .container{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+}
+.head .container .img{
+   grid-column-start: span 1; 
+}
+.head .container .img img{
+    width: 140px;
+    height: 55px;
+}
+.head .container .titles{
+    align-items: center;
+    grid-column-start: span 3;
+}
+.head .container .titles ul{
+    display: grid;
+    grid-column-start: span 5;
+    grid-template-columns: repeat(6,1fr);
+}
+.head .container .titles ul li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    list-style: none;
+    cursor: pointer;
+}
+.head .container .titles ul li i{
+    font-size: 25px;
+}
+.menu{
+    display: none;
+}
+.head .container .titles ul li:hover{
+    color: #A5C3C0;
+    transition: 0.5s;
+}
+.head .container .titles .current-title{
+    color: #A5C3C0;
+    font-weight: 600;
+}
+/********************* Head Click *********************/
+.head-click{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 50vh;
+    background: #fff;
+    transform: translateY(-100%);
+    transition: 0.3s;
+}
+.head-click .container ul{
+    list-style: none;
+    text-align: center;
+}
+.head-click .container ul li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 12px 0;
+}
+.head-click .container ul li:hover{
+    color: #A5C3C0;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.head-click .container ul .current-title{
+    color: #A5C3C0;
+    font-weight: 600;
+    font-size: 19px;
+}
+/********************* Head Img **********************/
+.img-head{
+    background: url(./img/principal_1.png);
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -1;
+    display: flex;
+}
+.img-head .container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.img-head .container h1{
+    color:#76C03C;
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 0;
+}
+.img-head .container p{
+    color: #fff;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    padding: 5px 0;
+}
+.img-head .container button{
+    width: 150px;
+    height: 45px;
+    background: #A5C3C0;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+/*************** Important Features ******************/
+
+.important{
+    width: 100%;
+    margin: 20px 0;
+}
+.important h1{
+    text-align: center;
+    font-size: 45px;
+    padding: 35px 0;
+    font-family: 'Poppins', sans-serif;
+    color: #76C03C;
+    font-weight: 300;
+}
+.important .container{
+    width: 85%;
+    padding: 20px 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.important .container .imports{
+    grid-column-start: span 1;
+}
+.important .container .img-import{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.important .container .img-import img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.imports .characteristics{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    padding: 15px 0;
+}
+.imports .characteristics p{
+    grid-column-start: span 3;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+.imports .characteristics i{
+    font-size: 50px;
+    color: #A5C3C0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
