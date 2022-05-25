@@ -9,6 +9,9 @@ a{
     text-decoration: none;
     color: #000;
 }
+hr{
+    border: 5px groove;
+}
 /*********************** Head titles *****************/
 .head{
     width: 100%;
@@ -18,7 +21,7 @@ a{
     top: 0;
     left: 0;
     z-index: 9999;
-    background: #fff;
+    background: #0096AE;
 }
 .head .container{
     width: 90%;
@@ -28,7 +31,7 @@ a{
     align-items: center;
 }
 .head .container .img{
-   grid-column-start: span 1; 
+   grid-column-start: span 1;
 }
 .head .container .img img{
     width: 140px;
@@ -37,6 +40,7 @@ a{
 .head .container .titles{
     align-items: center;
     grid-column-start: span 3;
+    font-size: 22px;
 }
 .head .container .titles ul{
     display: grid;
@@ -199,8 +203,9 @@ a{
 /** About */
 .about{
     width: 100%;
-    background: #FCFCFC;
+    background:#E8E8E7;
     padding: 45px 0;
+
 }
 .about h1{
     text-align: center;
@@ -214,6 +219,7 @@ a{
     text-align: center;
     width: 600px;
     margin: auto;
+    font-family: 'Roboto', sans-serif;
 }
 .about .container{
     width: 85%;
@@ -229,6 +235,7 @@ a{
     background: linear-gradient(#A5C3C0,#76C03C);
     border-radius: 18px;
     font-family: 'Roboto', sans-serif;
+    border: 5px solid ;
 }
 .about .container .mision h2, .about .container .vision h2{
     font-size: 20px;
@@ -307,7 +314,7 @@ a{
 /*Services*/
 .services{
     width: 100%;
-    background: #FCFCFC;
+    background: #EFEFEF;
     padding: 45px 0;
 }
 .services h1{
@@ -332,6 +339,7 @@ a{
     background: linear-gradient(#A5C3C0,#76C03C);
     border-radius: 18px;
     font-family: 'Roboto', sans-serif;
+    border: 5px solid ;
 }
 .services .container .customers h2, .services .container .business h2{
     font-size: 20px;
@@ -396,6 +404,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #0096AE;
 }
 footer .container{
     width: 85%;
@@ -412,12 +421,13 @@ footer .container img{
 footer .container .social_media{
     display: flex;
     justify-content: end;
+    color: white;
 }
 footer .container .social_media i{
     margin: 0 15px;
     font-size: 20px;
     border-radius: 50%;
-    border: 1px solid #76C03C;
+    border: 1px solid white;
     padding: 8px 11px;
     display: flex;
     justify-content: center;
@@ -443,6 +453,7 @@ footer .container .social_media i:hover{
     }
     .cambio{
         display: none;
+        color: white;
     }
     .head .container .titles ul{
         display: flex;
@@ -489,6 +500,7 @@ footer .container .social_media i:hover{
     }
     .about .description{
         width: 450px;
+        font-family: 'Roboto', sans-serif;
     }
     .about .container .mision, .about .container .vision{
         margin: 25px auto;
