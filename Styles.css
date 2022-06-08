@@ -585,4 +585,19 @@ footer .container .social_media i:hover{
     .important h1, .about h1, .steps h1, .services h1{
         font-size: 35px;
     }
+
+}
+
+.flags{
+    width: 75px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flags__item{
+    width: 30px;
+}
+.flags__img{
+    display: block;
+    cursor: pointer;
 }

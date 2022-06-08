@@ -1,0 +1,69 @@
+{
+    "Hproject":{
+        "first-Hproject-title":"Home",
+        "Second-Hproject-title":"About Us",
+        "third-Hproject-title":"How does this work?",
+        "fourth-Hproject-title":"Services",
+        "fifth-Hproject-title":"Application"
+    },
+
+    "Ldescription":{
+        "first-Ldescription-title":"We are FolkWeb",
+        "second-Ldescription-title":"Would you like to seek or provide your services in real estate remodeling?",
+        "third-Ldescription-title":"and live this incredible experience!"
+    },
+
+    "Lfeatures":{
+        "first-Lfeatures-title":"Important features",
+        "second-Lfeatures-title":"The functions of the web application have been designed to provide a fast navigation in the application.",
+        "third-Lfeatures-title":" All remodeling companies are going to be constantly evaluated in each of their projects that they obtain.",
+        "fourth-Lfeatures-title":"We have trusted remodeling companies front and center on the web app."
+
+    },
+
+    "Laboutus":{
+        "description-Laboutus-title":"We are a web application development team that aims to meet the expectations of our customers in order to satisfy their requests. Also, exhaustive market research was carried out to achieve effective solutions, so that consumers can use our services with comfort and confidence. In addition, we use innovative technology to solve customer problems.",
+        "mision-Laboutus-title":"Our mission is to provide a quality and trustworthy remodeling service for the client. In addition, publicize the work of small entrepreneurs in this area.",
+        "vision-Laboutus-title":"Enter, stay and stand out in the remodeling services market, being the company an intermediary between the client and the remodeling companies, in order to be one of the best applications in this category."
+
+    },
+
+    "Lhowdoes":{
+        "first-Lhowdoes-title":"How does this work?",
+        "p-Lhowdoes-title":"Create an account",
+        "h1-Lhowdoes-title":"Start section as a client or company",
+        "h2-Lhowdoes-title":"You can create an account with your email and password and select whether you are a customer or a company when creating an account",
+        "h3-Lhowdoes-title":"Search removal company",
+        "h4-Lhowdoes-title":"View real estate remodeling companies",
+        "h5-Lhowdoes-title":"You can choose the remodeling company to your preference with the visualization of projects, styles and comments",
+        "h6-Lhowdoes-title":"Establish communications",
+        "h7-Lhowdoes-title":"Contact the chosen remodeling company",
+        "h8-Lhowdoes-title":"You can establish communications with the help of a chat box on the page."
+
+
+    },
+
+    "Lservices":{
+        "first-Lservices-title":"Services",
+        "Second-Lservices-title":"Customers",
+        "li1-Lservices-title":"- Free access.",
+        "li2-Lservices-title":"- Visualization of different options of home renovations.",
+        "li3-Lservices-title":"- Quick contact with the remodeling company.",
+        "li4-Lservices-title":"- Recommendations of remodeling companies.",
+        "li5-Lservices-title":"Business",
+        "li6-Lservices-title":"- Access with a cost of 499 soles per month.",
+        "li7-Lservices-title":"- Wide customer coverage.",
+        "li8-Lservices-title":"- Agile communication with the client.",
+        "li9-Lservices-title":"- Organization of remodeling activities.",
+        "li10-Lservices-title":"- Performance Analysis Graph."
+
+
+    },
+
+    "Lapplication":{
+        "first-Lapplication-title":"Application",
+        "p1-Lapplication-title":"Available to the general public",
+        "p2-Lapplication-title":"Enjoy this experience through the link:"
+    }
+}
+

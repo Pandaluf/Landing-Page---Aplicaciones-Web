@@ -1,0 +1,69 @@
+{
+    "Hproject":{
+        "first-Hproject-title":"Hogar",
+        "Second-Hproject-title":"Sobre Nosotros",
+        "third-Hproject-title":"¿Cómo funciona esto?",
+        "fourth-Hproject-title":"Servicios",
+        "fifth-Hproject-title":"Aplicación"
+    },
+
+    "Ldescription":{
+        "first-Ldescription-title":"Nosotros somos FolkWeb",
+        "second-Ldescription-title":"¿Le gustaría buscar o prestar sus servicios en remodelaciones inmobiliarias?",
+        "third-Ldescription-title":"y vive esta increíble experiencia!"
+    },
+
+    "Lfeatures":{
+        "first-Lfeatures-title":"Características importantes",
+        "second-Lfeatures-title":"Las funciones de la aplicación web han sido diseñadas para proporcionar una navegación rápida en la aplicación.",
+        "third-Lfeatures-title":"Todas las empresas de remodelación van a ser evaluadas constantemente en cada uno de los proyectos que obtengan.",
+        "fourth-Lfeatures-title":"Hemos confiado en las empresas de remodelación al frente y al centro de la aplicación web."
+
+    },
+
+    "Laboutus":{
+        "description-Laboutus-title":"Somos un equipo de desarrollo de aplicaciones web que tiene como objetivo cumplir con las expectativas de nuestros clientes con el fin de satisfacer sus solicitudes. Asimismo, se realizó una exhaustiva investigación de mercado para lograr soluciones efectivas, para que los consumidores puedan utilizar nuestros servicios con comodidad y confianza. Además, utilizamos tecnología innovadora para resolver los problemas de los clientes.",
+        "mision-Laboutus-title":"Nuestra misión es brindar un servicio de remodelación de calidad y confianza para el cliente. Además, dar a conocer el trabajo de los pequeños empresarios en este ámbito.",
+        "vision-Laboutus-title":"Ingrese, quédese y destaque en el mercado de servicios de remodelación, siendo la empresa un intermediario entre el cliente y las empresas de remodelación, con el fin de ser una de las mejores aplicaciones en esta categoría."
+
+    },
+
+    "Lhowdoes":{
+        "first-Lhowdoes-title":"",
+        "p-Lhowdoes-title":"¿Como funciona esto?",
+        "h1-Lhowdoes-title":"Sección de inicio como cliente o empresa",
+        "h2-Lhowdoes-title":"Puede crear una cuenta con su correo electrónico y contraseña y seleccionar si es un cliente o una empresa al crear una cuenta.",
+        "h3-Lhowdoes-title":"Buscar empresa de remodelación",
+        "h4-Lhowdoes-title":"Ver empresas de remodelación inmobiliaria",
+        "h5-Lhowdoes-title":"Puedes elegir la empresa de remodelación de tu preferencia con la visualización de proyectos, estilos y comentarios",
+        "h6-Lhowdoes-title":"Establecer comunicaciones",
+        "h7-Lhowdoes-title":"Contacta con la empresa de reformas elegida",
+        "h8-Lhowdoes-title":"Puede establecer comunicaciones con la ayuda de un cuadro de chat en la página."
+
+
+    },
+
+    "Lservices":{
+        "first-Lservices-title":"Servicios",
+        "Second-Lservices-title":"Clientes",
+        "li1-Lservices-title":"- Acceso gratuito.",
+        "li2-Lservices-title":"- Visualización de diferentes opciones de reformas del hogar.",
+        "li3-Lservices-title":"- Contacto rápido con la empresa de remodelación.",
+        "li4-Lservices-title":"-Recomendaciones de empresas de remodelación.",
+        "li5-Lservices-title":"Empresa",
+        "li6-Lservices-title":"- Acceso con un costo de 499 soles mensuales.",
+        "li7-Lservices-title":"- Amplia cobertura de clientes.",
+        "li8-Lservices-title":"- Comunicación ágil con el cliente.",
+        "li9-Lservices-title":"- Organización de actividades de remodelación.",
+        "li10-Lservices-title":"- Gráfico de análisis de rendimiento."
+
+
+    },
+
+    "Lapplication":{
+        "first-Lapplication-title":"Aplicación",
+        "p1-Lapplication-title":"Disponible para el público en general",
+        "p2-Lapplication-title":"Disfruta de esta experiencia a través del enlace:"
+    }
+}
+
