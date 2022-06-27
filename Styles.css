@@ -21,7 +21,7 @@ hr{
     top: 0;
     left: 0;
     z-index: 9999;
-    background: #0096AE;
+    background: #54996c;
 }
 .head .container{
     width: 90%;
@@ -40,7 +40,7 @@ hr{
 .head .container .titles{
     align-items: center;
     grid-column-start: span 3;
-    font-size: 22px;
+    font-size: 17px;
 }
 .head .container .titles ul{
     display: grid;
@@ -144,6 +144,19 @@ hr{
     border-radius: 8px;
     margin-top: 25px;
     font-size: 18px;
+}
+.flags{
+    position: absolute;
+    left: 250px;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flags__items {
+    width: 30px;
+    display: block;
+    cursor: pointer;
 }
 
 /*************** Important Features ******************/
@@ -353,6 +366,30 @@ hr{
     font-weight: 200;
     line-height: 25px;
     list-style: none;
+}
+
+.Videos .container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+.Videos .video h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #5e738e;
+}
+.Videos .video iframe{
+    width: 100%;
+    margin: 25px 0;
+    border-radius: 15px;
+}
+
+.link{
+    display: block;
+    cursor: pointer;
 }
 
 /******************* Aplication ****************/
@@ -586,18 +623,4 @@ footer .container .social_media i:hover{
         font-size: 35px;
     }
 
-}
-
-.flags{
-    width: 75px;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.flags__item{
-    width: 30px;
-}
-.flags__img{
-    display: block;
-    cursor: pointer;
 }

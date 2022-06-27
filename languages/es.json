@@ -8,9 +8,9 @@
     },
 
     "Ldescription":{
-        "first-Ldescription-title":"Nosotros somos FolkWeb",
-        "second-Ldescription-title":"¿Le gustaría buscar o prestar sus servicios en remodelaciones inmobiliarias?",
-        "third-Ldescription-title":"y vive esta increíble experiencia!"
+        "first-Ldescription-title":"Hola! Somos FolkWeb",
+        "second-Ldescription-title":"¿Le gustaría buscar o prestar sus servicios en remodelaciones inmobiliarias",
+        "third-Ldescription-title":"y vivir esta increíble experiencia?"
     },
 
     "Lfeatures":{
@@ -29,8 +29,8 @@
     },
 
     "Lhowdoes":{
-        "first-Lhowdoes-title":"",
-        "p-Lhowdoes-title":"¿Como funciona esto?",
+        "first-Lhowdoes-title":"¿Cómo funciona esto?",
+        "p-Lhowdoes-title":"Crea una cuenta",
         "h1-Lhowdoes-title":"Sección de inicio como cliente o empresa",
         "h2-Lhowdoes-title":"Puede crear una cuenta con su correo electrónico y contraseña y seleccionar si es un cliente o una empresa al crear una cuenta.",
         "h3-Lhowdoes-title":"Buscar empresa de remodelación",
@@ -58,6 +58,11 @@
         "li10-Lservices-title":"- Gráfico de análisis de rendimiento."
 
 
+    },
+
+    "videos": {
+        "first-videos-title":"Sobre el producto",
+        "second-videos-title":"Sobre el equipo"
     },
 
     "Lapplication":{

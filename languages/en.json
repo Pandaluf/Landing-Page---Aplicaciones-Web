@@ -8,9 +8,9 @@
     },
 
     "Ldescription":{
-        "first-Ldescription-title":"We are FolkWeb",
-        "second-Ldescription-title":"Would you like to seek or provide your services in real estate remodeling?",
-        "third-Ldescription-title":"and live this incredible experience!"
+        "first-Ldescription-title":"Hello!, We are FolkWeb",
+        "second-Ldescription-title":"Would you like to seek or provide your services in real estate remodeling",
+        "third-Ldescription-title":"and living this incredible experience?"
     },
 
     "Lfeatures":{
@@ -58,6 +58,11 @@
         "li10-Lservices-title":"- Performance Analysis Graph."
 
 
+    },
+
+    "videos": {
+        "first-videos-title":"About the product",
+        "second-videos-title":"About the team"
     },
 
     "Lapplication":{

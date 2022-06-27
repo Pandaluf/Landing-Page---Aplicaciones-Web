@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8" />
@@ -20,24 +20,42 @@
             <div class="container">
                 <div class="img">
                     <img src="img/logo.png" alt="" />
-                </div>         
+                </div>
+                <div id="flags" class="flags">
+                    <div class="flags__items" data-language="es">
+                        <img src="/icon/es.svg" alt="" />
+                    </div>
+                    <div class="flags__items" data-language="en">
+                        <img src="/icon/en.svg" alt="" />
+                    </div>
+                </div>
                 <div class="titles">
-                    
+            
                     <ul>
                         <a href="#home">
-                            <li class="current-title cambio"><strong>Home</strong></li>
+                            <li class="current-title cambio" 
+                            data-section="Hproject"
+                            data-value="first-Hproject-title"><strong>Home</strong></li>
                         </a>
                         <a href="#about">
-                            <li class="cambio"><strong>About us</strong></li>
+                            <li class="cambio"
+                            data-section="Hproject"
+                            data-value="Second-Hproject-title"><strong>About us</strong></li>
                         </a>
                         <a href="#steps">
-                            <li class="cambio"><strong>How does this work?</strong></li>
+                            <li class="cambio"
+                            data-section="Hproject"
+                            data-value="third-Hproject-title"><strong>How does this work?</strong></li>
                         </a>
                         <a href="#services">
-                            <li class="cambio"><strong>Services</strong></li>
+                            <li class="cambio"
+                            data-section="Hproject"
+                            data-value="fourth-Hproject-title"><strong>Services</strong></li>
                         </a>
                         <a href="#aplication">
-                            <li class="cambio"><strong>Application</strong></li>
+                            <li class="cambio"
+                            data-section="Hproject"
+                            data-value="fifth-Hproject-title"><strong>Application</strong></li>
                         </a>
                         <li><i class="fa-regular fa-moon moon"></i></li>
                         <li><i class="fa-solid fa-bars menu"></i></li>
@@ -49,48 +67,64 @@
             <div class="container">
                 <ul>
                     <a href="#home">
-                        <li class="current-title move_up">Home</li>
+                        <li class="current-title move_up"
+                        data-section="Hproject"
+                        data-value="first-Hproject-title">Home</li>
                     </a>
                     <a href="#about">
-                        <li class="move_up">About us</li>
+                        <li class="move_up"
+                        data-section="Hproject" 
+                        data-value="Second-Hproject-title">About us</li>
                     </a>
                     <a href="#steps">
-                        <li class="move_up">How does this work?</li>
+                        <li class="move_up"
+                        data-section="Hproject"
+                        data-value="third-Hproject-title">How does this work?</li>
                     </a>
                     <a href="#services">
-                        <li class="move_up">Services</li>
+                        <li class="move_up"
+                        data-section="Hproject"
+                        data-value="fourth-Hproject-title">Services</li>
                     </a>
                     <a href="#aplication">
-                        <li class="move_up">Application</li>
+                        <li class="move_up"
+                        data-section="Hproject"
+                        data-value="fifth-Hproject-title">Application</li>
                     </a>
                 </ul>
             </div>
         </div>
         <div class="img-head" id="img-head">
             <div class="container">
-                <h1>Hello!, We are FolkWeb</h1>
+                <h1 data-section="Ldescription"
+                    data-value="first-Ldescription-title">Hello!, We are FolkWeb</h1>
                 <p>
-                    <strong>Would you like to seek or provide your services in real estate remodeling?</strong>
+                    <strong data-section="Ldescription"
+                            data-value="second-Ldescription-title">Would you like to seek or provide your services in real estate remodeling</strong>
                 </p>
-                <p><strong>and live this incredible experience!</strong></p>
-                <button style="background-color: black; border: 1px solid #d0d0d0;">RemodelKing</button>
+                <p><strong data-section="Ldescription"
+                           data-value="third-Ldescription-title">and living this incredible experience?</strong></p>
+                <button style="background-color: black; border: 1px solid #d0d0d0;" onclick="location.href='https://remodelking-ff5e4.web.app/home'">RemodelKing</button>
             </div>
         </div>
     </header>
     <main>
         <section class="important" id="important">
-            <h1><strong>Important features</strong></h1>
+            <h1><strong data-section="Lfeatures"
+                        data-value="first-Lfeatures-title">Important features</strong></h1>
             <div class="container">
                 <div class="imports">
                     <div class="characteristics">
                         <i class="fa-regular fa-face-smile"></i>
-                        <p>
+                        <p data-section="Lfeatures"
+                            data-value="second-Lfeatures-title">
                             The functions of the web application have been designed to provide a fast navigation in the
                             application.
                         </p>
                     </div>
                     <div class="characteristics">
-                        <p>
+                        <p data-section="Lfeatures"
+                           data-value="third-Lfeatures-title">
                             All remodeling companies are going to be constantly evaluated in each of their projects that
                             they obtain.
                         </p>
@@ -98,7 +132,8 @@
                     </div>
                     <div class="characteristics">
                         <i class="fa-solid fa-chart-line"></i>
-                        <p>
+                        <p data-section="Lfeatures"
+                           data-value="fourth-Lfeatures-title">
                             We have trusted remodeling companies front and center on the web app.
                         </p>
                     </div>
@@ -110,8 +145,11 @@
         </section>
         <hr>
         <section class="about" id="about">
-            <h1><strong>About Us</strong></h1>
-            <p class="description">
+            <h1><strong data-section="Hproject"
+                        data-value="Second-Hproject-title">About Us</strong></h1>
+            <p class="description"
+                data-section="Laboutus"
+                data-value="description-Laboutus-title">
                 We are a web application development team that aims to meet the expectations of our customers in order
                 to satisfy their requests. Also, exhaustive market research was carried out to achieve effective
                 solutions, so that consumers can use our services with comfort and confidence. In addition, we use
@@ -120,14 +158,16 @@
             <div class="container">
                 <div class="mision">
                     <h2 style="color: #FF3E17; font-size: 35px">Mision</h2>
-                    <p><strong>
+                    <p><strong data-section="Laboutus"
+                               data-value="mision-Laboutus-title">
                         Our mission is to provide a quality and trustworthy remodeling service for the client. In
                         addition, publicize the work of small entrepreneurs in this area.</strong>
                     </p>
                 </div>
                 <div class="vision">
                     <h2 style="color: #FF3E17; font-size: 35px">Vision</h2>
-                    <p><strong>
+                    <p><strong data-section="Laboutus"
+                               data-value="vision-Laboutus-title">
                         Enter, stay and stand out in the remodeling services market, being the company an intermediary
                         between the client and the remodeling companies, in order to be one of the best applications in
                         this category.</strong>
@@ -137,23 +177,30 @@
         </section>
         <hr>
         <section class="steps" id="steps">
-            <h1><strong>How does this work?</strong></h1>
+            <h1><strong data-section="Lhowdoes"
+                        data-value="first-Lhowdoes-title">How does this work?</strong></h1>
             <div class="container">
                 <div class="step step_1">
                     <img src="img/step_1.jpeg" alt="" style="border: black 3px solid; margin-right: 10px;">
                     <div class="inform_step">
-                        <p>Create an account</p>
-                        <h3>Start section as a client or company</h3>
-                        <h5>You can create an account with your email and password and select whether you are a customer
+                        <p data-section="Lhowdoes"
+                           data-value="p-Lhowdoes-title">Create an account</p>
+                        <h3 data-section="Lhowdoes"
+                            data-value="h1-Lhowdoes-title">Start section as a client or company</h3>
+                        <h5 data-section="Lhowdoes"
+                            data-value="h2-Lhowdoes-title">You can create an account with your email and password and select whether you are a customer
                             or a company when creating an account</h5>
                     </div>
                 </div>
                 <div class="step step_2">
                     <img src="img/step_2.jpeg" alt="" style="width: 500px; border: black 3px outset; margin-right: 10px;">
                     <div class="inform_step">
-                        <p>Search removal company</p>
-                        <h3>View real estate remodeling companies</h3>
-                        <h5>You can choose the remodeling company to your preference with the visualization of projects,
+                        <p data-section="Lhowdoes"
+                           data-value="h3-Lhowdoes-title">Search removal company</p>
+                        <h3 data-section="Lhowdoes"
+                            data-value="h4-Lhowdoes-title">View real estate remodeling companies</h3>
+                        <h5 data-section="Lhowdoes"
+                            data-value="h5-Lhowdoes-title">You can choose the remodeling company to your preference with the visualization of projects,
                             styles and comments</h5>
                     </div>
                 </div>
@@ -161,9 +208,12 @@
                 <br>
                 <div class="step step_3">
                     <div class="inform_step">
-                        <p>Establish communications</p>
-                        <h3>Contact the chosen remodeling company</h3>
-                        <h5>You can establish communications with the help of a chat box on the page.</h5>
+                        <p data-section="Lhowdoes"
+                           data-value="h6-Lhowdoes-title">Establish communications</p>
+                        <h3 data-section="Lhowdoes"
+                            data-value="h7-Lhowdoes-title">Contact the chosen remodeling company</h3>
+                        <h5 data-section="Lhowdoes"
+                            data-value="h8-Lhowdoes-title">You can establish communications with the help of a chat box on the page.</h5>
                     </div>
                     <img src="img/step_3.jpeg" alt="" style="width: 700px; border: black 3px solid; margin-right: 10px; margin-left: 15px">
                 </div>
@@ -171,54 +221,73 @@
         </section>
         <hr>
         <section class="services" id="services">
-            <h1><strong>Services</strong></h1>
+            <h1><strong data-section="Lservices"
+                        data-value="first-Lservices-title">Services</strong></h1>
             <div class="container">
                 <div class="customers">
-                    <h2><strong style="color: #FF3E17; font-size: 35px">Customers</strong></h2>
+                    <h2><strong style="color: #FF3E17; font-size: 35px"
+                                data-section="Lservices"
+                                data-value="Second-Lservices-title">Customers</strong></h2>
                     <ul>
-                        <li><strong>- Free access.</strong></li>
-                        <li><strong>- Visualization of different options of home renovations.</strong></li>
-                        <li><strong>- Quick contact with the remodeling company.</strong></li>
-                        <li><strong>- Recommendations of remodeling companies.</strong></li>
+                        <li><strong data-section="Lservices"
+                                    data-value="li1-Lservices-title">- Free access.</strong></li>
+                        <li><strong data-section="Lservices"
+                                    data-value="li2-Lservices-title">- Visualization of different options of home renovations.</strong></li>
+                        <li><strong data-section="Lservices"
+                                    data-value="li3-Lservices-title">- Quick contact with the remodeling company.</strong></li>
+                        <li><strong data-section="Lservices"
+                                    data-value="li4-Lservices-title">- Recommendations of remodeling companies.</strong></li>
                     </ul>
                 </div>
                 <div class="business">
-                    <h2><strong style="color: #FF3E17; font-size: 35px">Business</strong></h2>
+                    <h2><strong style="color: #FF3E17; font-size: 35px" data-section="Lservices"
+                                                                          data-value="li5-Lservices-title">Business</strong></h2>
                     <ul>
-                        <li><strong>- Access with a cost of 499 soles per month.</strong></li>
-                        <li><strong>- Wide customer coverage.</strong></li>
-                        <li><strong>- Agile communication with the client.</strong></li>
-                        <li><strong>- Organization of remodeling activities.</strong></li>
-                        <li><strong>- Performance Analysis Graph.</strong></li>
+                        <li><strong data-section="Lservices"
+                                    data-value="li6-Lservices-title">- Access with a cost of 499 soles per month.</strong></li>
+                        <li><strong data-section="Lservices"
+                                    data-value="li7-Lservices-title">- Wide customer coverage.</strong></li>
+                        <li><strong data-section="Lservices"
+                                    data-value="li8-Lservices-title">- Agile communication with the client.</strong></li>
+                        <li><strong data-section="Lservices"
+                                    data-value="li9-Lservices-title">- Organization of remodeling activities.</strong></li>
+                        <li><strong data-section="Lservices"
+                                    data-value="li10-Lservices-title">- Performance Analysis Graph.</strong></li>
                     </ul>
                 </div>
             </div>
         </section>
         <hr>
-        <section class="abouttheproduct" id="abouttheproduct">
-            <div class="container">
-                <h1><strong>About the product</strong></h1>
-                <p><strong>https://youtu.be/hYdoEjpPR80</strong></p>
-                <video src="img/aboutproduct.mp4">
-            </div>
 
-        </section>
-        <hr>
-        <section class="abouttheteam" id="abouttheteam">
+        <div class="Videos">
             <div class="container">
-                <h1><strong>About the team</strong></h1>
-                <p><strong>https://youtu.be/fbzYxh3mmIo</strong></p>
-                <video src="img/aboutteam.mp4"></video>
+                <div class="about-the-product video">
+                    <h2 data-section="videos"
+                        data-value="first-videos-title">About the Product</h2>
+                    <iframe height="394" src="https://www.youtube-nocookie.com/embed/BVkUfvaYE8Y" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="about-the-team video">
+                    <h2 data-section="videos"
+                        data-value="second-videos-title">About the Team</h2>
+                    <iframe height="394" src="https://www.youtube-nocookie.com/embed/dup9JxANfFw" title="About the prodcut (Model Virtual)" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
-        </section>
+        </div>
+        
+
         <hr>
         <section class="aplication" id="aplication">
             <div class="container">
-                <h1><strong>Application</strong></h1>
-                <p><strong>Available to the general public.</strong></p>
-                <p><strong>Enjoy this experience through the link:</strong></p>
-                <p><strong>www.RemodelKing.com</strong></p>
-                <button style="background-color: black; border: 1px solid #d0d0d0;">RemodelKing</strong></button>
+                <h1><strong data-section="Lapplication"
+                            data-value="first-Lapplication-title">Application</strong></h1>
+                <p><strong data-section="Lapplication"
+                           data-value="p1-Lapplication-title">Available to the general public.</strong></p>
+                <p><strong data-section="Lapplication"
+                           data-value="p2-Lapplication-title">Enjoy this experience through the link:</strong></p>
+                <p onclick="location.href='https://remodelking-ff5e4.web.app/home'"><strong class="link">https://remodelking-ff5e4.web.app/home</strong></p>
+                <button style="background-color: black; border: 1px solid #d0d0d0;" onclick="location.href='https://remodelking-ff5e4.web.app/home'">RemodelKing</strong></button>
             </div>
         </section>
     </main>
